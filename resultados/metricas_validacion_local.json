@@ -1,0 +1,20 @@
+{
+  "nota": "Métricas de validación local preliminar. El notebook 02 ejecuta la solución final DeepFace + InsightFace y recalcula métricas.",
+  "deteccion_haar": {
+    "tasa_deteccion": 0.82,
+    "detectadas": 41,
+    "total": 50
+  },
+  "baseline_identidad_hog_svm": {
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0
+  },
+  "baseline_emocion_hog_svm": {
+    "accuracy": 0.2,
+    "precision_macro": 0.11666666666666665,
+    "recall_macro": 0.15,
+    "f1_macro": 0.13
+  }
+}
